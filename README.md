@@ -7,7 +7,7 @@ Welcome to the **java-learning** repository! Here you'll find a collection of mi
 This repository serves as a place to store and share code created for learning Java. Each mini-program contained within this repository is designed to demonstrate specific language concepts or solve particular problems.
 
 ## Content
-Each project has it's unique name of a program it contains that can be easily identified and understood.
+Each package has it's unique name of a program (classes) it contains that can be easily identified and understood.
 
 ## How to Use This Repository?
 
