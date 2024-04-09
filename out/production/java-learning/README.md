@@ -1,0 +1,23 @@
+# Java Learning Repository
+
+Welcome to the **java-learning** repository! Here you'll find a collection of mini-programs written in Java that can help you learn the language.
+
+## Introduction
+
+This repository serves as a place to store and share code created for learning Java. Each mini-program contained within this repository is designed to demonstrate specific language concepts or solve particular problems.
+
+## Table of Contents
+
+1. [Hello World](./HelloWorld): Basic "Hello World" program in Java.
+
+## How to Use This Repository?
+
+You can browse the code of each mini-program to understand its functionality and application. You can also download the source code and experiment with it locally on your computer. Each program includes installation and execution instructions in its own directory.
+
+## How Can I Contribute?
+
+You can't. There is no contibution option at the moment.
+
+## Contact
+
+If you have any questions, feedback, or suggestions regarding this repository, please reach out to us by opening a new issue in the "Issues" tab.
