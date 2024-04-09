@@ -11,7 +11,7 @@ Each package has it's unique name of a program (classes) it contains that can be
 
 ## How to Use This Repository?
 
-You can browse the code of each mini-program to understand its functionality and application. You can also download the source code and experiment with it locally on your computer. Each program includes installation and execution instructions in its own directory.
+You can browse the code of each mini-program to understand its functionality and application. You can also download the source code and experiment with it locally on your computer.
 
 ## How Can I Contribute?
 
