@@ -51,9 +51,17 @@ public class Game {
     }
 
     private void printBoardOnConsole() {
-        for (char[] chars : board) {
-            for (char aChar : chars) {
-                System.out.print(aChar + " ");
+        for (int i = 0; i < board.length; i++) {
+            if (i != 0){
+                System.out.println("------------");
+            }
+
+            for (int j = 0; j < board[i].length; j++) {
+                System.out.print(" " + board[i][j] + " ");
+                if (j != 2){
+                    System.out.print("|");
+                }
+
             }
             System.out.println(); // move cursor to next row of the "board" array.
         }
@@ -68,10 +76,10 @@ public class Game {
             if (board[0][i] == board[1][i] && board[1][i] == board[2][i] && board[0][i] != ' ') {
                 return players[previousPlayerIndex];
             }
-            if (board[i][0] == board[1][1] && board[1][1] == board[0][2] && board[i][0] != ' ') {
+            if (board[i][0] == board[1][1] && board[1][1] == board[0][2] && board[2][0] != ' ' && board[i][0] != ' ') {
                 return players[previousPlayerIndex];
             }
-            if (board[i][0] == board[1][1] && board[1][1] == board[2][2] && board[i][0] != ' ') {
+            if (board[i][0] == board[1][1] && board[1][1] == board[2][2] && board[0][0] != ' ' && board[0][2] != ' ' && board[i][0] != ' ') {
                 return players[previousPlayerIndex];
             }
             if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != ' ') {
